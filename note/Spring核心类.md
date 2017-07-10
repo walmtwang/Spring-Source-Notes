@@ -1,0 +1,9 @@
+# Spring核心类介绍
+
+### 1.DefaultListableBeanFactory
+
+- XmlBeanFactory继承于该类。
+- DefaultListableBeanFactory是整个bean加载的核心部分，是Spring注册和加载bean的默认实现。
+- XmlBeanFactory使用了自己定义的XML读取器XmlBeanDefinitionReader实现了个性化的BeanDefinitionReader读取。
+- DefaultListableBeanFactory继承了AbstractAutowireCapableBeanFactory，实现了ConfigurableListableBeanFactory、BeanDefinitionRegistry接口。
+- 
