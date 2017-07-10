@@ -1,6 +1,6 @@
 # Spring的整体架构
 
-### ![](https://github.com/walmt/img/blob/master/1.png?raw=true)
+### ![](https://github.com/walmt/img/blob/master/img/1.png?raw=true)
 
 ### (1) Core Container
 

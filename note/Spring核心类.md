@@ -6,4 +6,4 @@
 - DefaultListableBeanFactory是整个bean加载的核心部分，是Spring注册和加载bean的默认实现。
 - XmlBeanFactory使用了自己定义的XML读取器XmlBeanDefinitionReader实现了个性化的BeanDefinitionReader读取。
 - DefaultListableBeanFactory继承了AbstractAutowireCapableBeanFactory，实现了ConfigurableListableBeanFactory、BeanDefinitionRegistry接口。
-- 
+- ![](https://github.com/walmt/img/blob/master/img/2.png?raw=true)
