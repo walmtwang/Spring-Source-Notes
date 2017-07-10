@@ -141,4 +141,7 @@ public AbstractAutowireCapableBeanFactory() {
 
 ### 加载Bean
 
-- 
+- `this.reader.loadBeanDefinitions(resource);`这个方法的时序图：![](https://github.com/walmt/img/blob/master/img/6.png?raw=true)
+- （1）封装资源文件。当进入XmlBeanDefinitionReader后首先对参数Resource使用EncodedResource类进行封装。
+- （2）获取输入流。从Resource中获取对应的InputStream并构造InputSource。
+- （3）通过
