@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="spring-context-4.3.5.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/spring-context-4.3.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../Spring源码分析/spring-framework-4.3.x/spring-context-support/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../Spring源码分析/spring-framework-4.3.x/spring-context-support/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../Spring源码分析/spring-framework-4.3.x/spring-context-support/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../Spring源码分析/spring-framework-4.3.x/spring-context-support/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../Spring源码分析/spring-framework-4.3.x/spring-context/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../Spring源码分析/spring-framework-4.3.x/spring-context/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

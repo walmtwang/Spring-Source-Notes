@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="spring-beans-4.3.5.RELEASE (2)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/spring-beans-4.3.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../Spring源码分析/spring-framework-4.3.x/spring-beans/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../Spring源码分析/spring-framework-4.3.x/spring-beans/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

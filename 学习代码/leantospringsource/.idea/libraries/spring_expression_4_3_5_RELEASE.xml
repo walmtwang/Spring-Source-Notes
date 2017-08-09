@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spring-expression-4.3.5.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/spring-expression-4.3.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

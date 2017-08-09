@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--需要在各个类中添加构造器-->
+    <!--<bean id="testA" class="com.bean.TestA">-->
+        <!--<constructor-arg index="0" ref="testB"/>-->
+    <!--</bean>-->
+    <!--<bean id="testB" class="com.bean.TestB">-->
+        <!--<constructor-arg index="0" ref="testC"/>-->
+    <!--</bean>-->
+    <!--<bean id="testC" class="com.bean.TestC">-->
+        <!--<constructor-arg index="0" ref="testA"/>-->
+    <!--</bean>-->
+
+    <!--三个类都需要有默认构造器-->
+    <bean id="testA" class="com.bean.TestA" scope="prototype">
+        <property name="testB" ref="testB"/>
+    </bean>
+
+    <bean id="testB" class="com.bean.TestB" scope="prototype">
+        <property name="testC" ref="testC"/>
+    </bean>
+
+    <bean id="testC" class="com.bean.TestC" scope="prototype">
+        <property name="testA" ref="testA"/>
+    </bean>
+</beans>
